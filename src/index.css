@@ -1,13 +1,25 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.row{
+  @apply flex justify-between gap-4
+}
+.number-button{
+  @apply border outline-none bg-gray-600 text-white rounded-full py-2 px-4 font-semibold text-xl
+}
+.other-button{
+  @apply border outline-none bg-yellow-500 text-white rounded-full py-2 px-4 font-semibold text-xl
+}
+.delete-button{
+  @apply border outline-none bg-red-500 text-white rounded-full py-2 px-4 font-semibold text-xl
+}
+.final-row{
+  @apply flex gap-4
+}
+.final-row-button{
+  @apply flex justify-center border w-1/2 outline-none bg-red-500 text-white rounded-full py-2 px-4 font-semibold text-xl
+}
+.equal-button{
+  @apply bg-blue-500
 }
