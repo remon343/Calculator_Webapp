@@ -187,7 +187,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="absolute bottom-0 text-2xl bg-blue-500 py-3 text-white w-screen flex justify-center">Copyright © By Manoj Shrestha</div>
+      <div className="fixed bottom-0 text-2xl bg-blue-500 py-3 text-white w-screen flex justify-center">Copyright © By Manoj Shrestha</div>
     </div>
   );
 }
